@@ -1,8 +1,9 @@
-bom: hw/sch_pcb/MODUL01.kicad_pcb
+bom: hw/sch_pcb/BLE02.kicad_pcb
 color: white
 eda:
-  pcb: hw/sch_pcb/MODUL01.kicad_pcb
+  pcb: hw/sch_pcb/BLE02.kicad_pcb
   type: kicad
 gerbers: hw/cam_profi/
-site: https://github.com/mlab-modules/MODUL01
-summary: Template repository
+site: https://github.com/mlab-modules/BLE02
+summary: Bluetooth 4.1 controller for UART HCI-based BLE and BR/EDR communication
+  with external host MCU.
