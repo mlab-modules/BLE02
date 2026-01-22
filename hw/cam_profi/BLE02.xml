@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/BLE02.kicad_sch</source>
+    <date>2026-01-22T14:03:23+0000</date>
+    <tool>Eeschema 9.0.6+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BLE02A</title>
+        <company>MLAB.cz</company>
+        <rev/>
+        <date/>
+        <source>BLE02.kicad_sch</source>
+        <comment number="1" value="Bluetooth IC with HCI. "/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c3e589b-4402-4da3-b3c8-a4f050aefd24</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2518dd6e-7960-481b-b61b-6344d4d29f3d</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006110ad75</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006111b2bc</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061194b2e</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fde69a7</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fde749f</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fde7c1a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fde7e76</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10 pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060374c44</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10 pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="C-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006037626d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BZV55C-6,2V</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="UST_ID">604b0326128750769e5b0f93</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="UST_ID" value="604b0326128750769e5b0f93"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42f4dfb9-8562-4784-980c-bf4793c51ace</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a47cbe1-1f9c-4b09-90c4-b75a2c1c42f6</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5d5d3a5-dcb1-464e-a60e-271750a1dc23</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3247d27a-f411-474f-8c4c-872f17cc887f</tstamps>
+    </comp>
+    <comp ref="FL1">
+      <value>DEA202450BT-1213C1</value>
+      <footprint>cc2654-board-footprints:DEA202450BT-1213C1</footprint>
+      <fields>
+        <field name="Footprint">cc2654-board-footprints:DEA202450BT-1213C1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DEA202450BT-1213C1" part="DEA202450BT-1213C1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="DEA-4_2P0X1P25"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061235dfc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial</value>
+      <footprint>Mlab_CON:MCX</footprint>
+      <datasheet>~</datasheet>
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_CON:MCX</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce2c1498-294d-4ce9-a320-aedfc0dec01a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3.3-5V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7f0d22c-a88a-4d5e-b568-bb3b92c34c14</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>0ohm</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="INDUCTOR-pspice" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006111c7d2</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c4af3da</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7628</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b3d3f17</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b3d3f18</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606c973a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CC2564CRVMR</value>
+      <footprint>cc2654-board-footprints:CC2564CRVMR</footprint>
+      <fields>
+        <field name="Footprint">cc2654-board-footprints:CC2564CRVMR</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TI-CC2564" part="CC2564CRVMR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="RVM0076A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601ee200 00000000-0000-0000-0000-0000601b2d67</tstamps>
+    </comp>
+    <comp ref="Y3">
+      <value>ECS-260-8-36CKM-TR</value>
+      <footprint>cc2654-board-footprints:XTAL_ECS-260-8-36CKM-TR</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">cc2654-board-footprints:XTAL_ECS-260-8-36CKM-TR</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="Crystal_GND24_Small-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006036c44d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DEA202450BT-1213C1" part="DEA202450BT-1213C1">
+      <footprints>
+        <fp>DEA-4_2P0X1P25</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DEA202450BT-1213C1</field>
+        <field name="Footprint">DEA-4_2P0X1P25</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_MECHANICAL" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="TI-CC2564" part="CC2564CRVMR">
+      <footprints>
+        <fp>RVM0076A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC2564CRVMR</field>
+        <field name="Footprint">RVM0076A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="NC" type="unspecified"/>
+        <pin num="A2" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="A3" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="A4" name="XTALM_FREFM" type="input"/>
+        <pin num="A5" name="MLDO_OUT" type="power_in"/>
+        <pin num="A6" name="SHUTD_N" type="input"/>
+        <pin num="A7" name="CL1-5_LDO_OUT" type="power_in"/>
+        <pin num="A8" name="ADC_PPA_LDO_OUT" type="power_in"/>
+        <pin num="A9" name="MLDO_OUT" type="power_in"/>
+        <pin num="A10" name="NC" type="unspecified"/>
+        <pin num="A11" name="NC" type="unspecified"/>
+        <pin num="A12" name="DCO_LDO_OUT" type="power_in"/>
+        <pin num="A13" name="NC" type="unspecified"/>
+        <pin num="A14" name="NC" type="unspecified"/>
+        <pin num="A15" name="NC" type="unspecified"/>
+        <pin num="A16" name="NC" type="unspecified"/>
+        <pin num="A17" name="VDD_IO" type="power_in"/>
+        <pin num="A18" name="NC" type="unspecified"/>
+        <pin num="A19" name="NC" type="unspecified"/>
+        <pin num="A20" name="NC" type="unspecified"/>
+        <pin num="A21" name="NC" type="unspecified"/>
+        <pin num="A22" name="NC" type="unspecified"/>
+        <pin num="A23" name="NC" type="unspecified"/>
+        <pin num="A24" name="VSS" type="power_in"/>
+        <pin num="A25" name="SLOW_CLK" type="input"/>
+        <pin num="A26" name="HCI_RX" type="input"/>
+        <pin num="A27" name="NC" type="unspecified"/>
+        <pin num="A28" name="VSS" type="power_in"/>
+        <pin num="A29" name="HCI_CTS" type="input"/>
+        <pin num="A30" name="NC" type="unspecified"/>
+        <pin num="A31" name="NC" type="unspecified"/>
+        <pin num="A32" name="HCI_RTS" type="output"/>
+        <pin num="A33" name="HCI_TX" type="output"/>
+        <pin num="A34" name="VDD_IO" type="power_in"/>
+        <pin num="A35" name="AUD_FSYNC" type="bidirectional"/>
+        <pin num="A36" name="NC" type="unspecified"/>
+        <pin num="A37" name="NC" type="unspecified"/>
+        <pin num="A38" name="VDD_IO" type="power_in"/>
+        <pin num="A39" name="NC" type="unspecified"/>
+        <pin num="A40" name="NC" type="unspecified"/>
+        <pin num="B1" name="SRAM_LDO_OUT" type="power_in"/>
+        <pin num="B2" name="MLDO_OUT" type="power_in"/>
+        <pin num="B3" name="VSS_FREF" type="power_in"/>
+        <pin num="B4" name="XTALP_FREFP" type="input"/>
+        <pin num="B5" name="MLDO_IN" type="power_in"/>
+        <pin num="B6" name="CL1-5_LDO_IN" type="power_in"/>
+        <pin num="B7" name="MLDO_OUT" type="power_in"/>
+        <pin num="B8" name="BT_RF" type="bidirectional"/>
+        <pin num="B9" name="NC" type="unspecified"/>
+        <pin num="B10" name="NC" type="unspecified"/>
+        <pin num="B11" name="VSS_DCO" type="power_in"/>
+        <pin num="B12" name="NC" type="unspecified"/>
+        <pin num="B13" name="NC" type="unspecified"/>
+        <pin num="B14" name="NC" type="unspecified"/>
+        <pin num="B15" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="B16" name="NC" type="unspecified"/>
+        <pin num="B17" name="NC" type="unspecified"/>
+        <pin num="B18" name="VDD_IO" type="power_in"/>
+        <pin num="B19" name="VDD_IO" type="power_in"/>
+        <pin num="B20" name="NC" type="unspecified"/>
+        <pin num="B21" name="VDD_IO" type="power_in"/>
+        <pin num="B22" name="VDD_IO" type="power_in"/>
+        <pin num="B23" name="NC" type="unspecified"/>
+        <pin num="B24" name="TX_DBG" type="output"/>
+        <pin num="B25" name="VDD_IO" type="power_in"/>
+        <pin num="B26" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="B27" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="B28" name="NC" type="unspecified"/>
+        <pin num="B29" name="NC" type="unspecified"/>
+        <pin num="B30" name="NC" type="unspecified"/>
+        <pin num="B31" name="NC" type="unspecified"/>
+        <pin num="B32" name="AUD_CLK" type="bidirectional"/>
+        <pin num="B33" name="AUD_OUT" type="output"/>
+        <pin num="B34" name="AUD_IN" type="input"/>
+        <pin num="B35" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="B36" name="DIG_LDO_OUT" type="power_in"/>
+        <pin num="D1" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc2564-board-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc2564-board-rescue" part="Crystal_GND24_Small-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small-Device</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc2564-board-rescue" part="INDUCTOR-pspice">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-pspice</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="cc2564-board-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="DEA202450BT-1213C1">
+      <uri>/Users/matt/git/kicad/cc2564-board/symbols/DEA202450BT-1213C1.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="TI-CC2564">
+      <uri>/Users/matt/git/kicad/cc2564-board/symbols/CC2564CRVMR.lib</uri>
+    </library>
+    <library logical="cc2564-board-rescue">
+      <uri>/github/workspace/hw/sch_pcb/BLE02-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BT_SLOW_CLK" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="A25" pinfunction="SLOW_CLK" pintype="input"/>
+    </net>
+    <net code="2" name="BT_TX_DBG" class="Default">
+      <node ref="U5" pin="B24" pinfunction="TX_DBG" pintype="output"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FL1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="FL1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="J2" pin="5" pintype="input"/>
+      <node ref="J2" pin="6" pintype="input"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M4" pin="1" pintype="input"/>
+      <node ref="U5" pin="A10" pinfunction="NC" pintype="unspecified"/>
+      <node ref="U5" pin="A11" pinfunction="NC" pintype="unspecified"/>
+      <node ref="U5" pin="A24" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="A28" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="B11" pinfunction="VSS_DCO" pintype="power_in"/>
+      <node ref="U5" pin="B3" pinfunction="VSS_FREF" pintype="power_in"/>
+      <node ref="U5" pin="B4" pinfunction="XTALP_FREFP" pintype="input"/>
+      <node ref="U5" pin="B9" pinfunction="NC" pintype="unspecified"/>
+      <node ref="U5" pin="D1" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="Y3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Y3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y3" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="4" name="NSHUTDOWN_1V8" class="Default">
+      <node ref="U5" pin="A6" pinfunction="SHUTD_N" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(FL1-IN)" class="Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="FL1" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(FL1-OUT)" class="Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="FL1" pin="3" pinfunction="OUT" pintype="output"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(J1-In)" class="Default">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U5A-BT_RF)" class="Default">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="B8" pinfunction="BT_RF" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(U5A-XTALM_FREFM)" class="Default">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="A4" pinfunction="XTALM_FREFM" pintype="input"/>
+      <node ref="Y3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="10" name="USART2_CTS_1V8" class="Default">
+      <node ref="U5" pin="A32" pinfunction="HCI_RTS" pintype="output"/>
+    </net>
+    <net code="11" name="USART2_RTS_1V8" class="Default">
+      <node ref="U5" pin="A29" pinfunction="HCI_CTS" pintype="input"/>
+    </net>
+    <net code="12" name="USART2_RX_1V8" class="Default">
+      <node ref="U5" pin="A33" pinfunction="HCI_TX" pintype="output"/>
+    </net>
+    <net code="13" name="USART2_TX_1V8" class="Default">
+      <node ref="U5" pin="A26" pinfunction="HCI_RX" pintype="input"/>
+    </net>
+    <net code="14" name="VCC" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="input"/>
+      <node ref="J2" pin="4" pintype="input"/>
+    </net>
+    <net code="15" name="VDD_1V8" class="Default">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="U5" pin="A17" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="A34" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="A38" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="B18" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="B19" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="B21" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="B22" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="B25" pinfunction="VDD_IO" pintype="power_in"/>
+    </net>
+    <net code="16" name="unconnected-(R18-Pad2)" class="Default">
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(U5A-ADC_PPA_LDO_OUT-PadA8)" class="Default">
+      <node ref="U5" pin="A8" pinfunction="ADC_PPA_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U5A-AUD_CLK-PadB32)" class="Default">
+      <node ref="U5" pin="B32" pinfunction="AUD_CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U5A-AUD_FSYNC-PadA35)" class="Default">
+      <node ref="U5" pin="A35" pinfunction="AUD_FSYNC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U5A-AUD_IN-PadB34)" class="Default">
+      <node ref="U5" pin="B34" pinfunction="AUD_IN" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U5A-AUD_OUT-PadB33)" class="Default">
+      <node ref="U5" pin="B33" pinfunction="AUD_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U5A-CL1-5_LDO_IN-PadB6)" class="Default">
+      <node ref="U5" pin="B6" pinfunction="CL1-5_LDO_IN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U5A-CL1-5_LDO_OUT-PadA7)" class="Default">
+      <node ref="U5" pin="A7" pinfunction="CL1-5_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U5A-DCO_LDO_OUT-PadA12)" class="Default">
+      <node ref="U5" pin="A12" pinfunction="DCO_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U5A-DIG_LDO_OUT-PadA2)" class="Default">
+      <node ref="U5" pin="A2" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U5A-DIG_LDO_OUT-PadA3)" class="Default">
+      <node ref="U5" pin="A3" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U5A-DIG_LDO_OUT-PadB15)" class="Default">
+      <node ref="U5" pin="B15" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U5A-DIG_LDO_OUT-PadB26)" class="Default">
+      <node ref="U5" pin="B26" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U5A-DIG_LDO_OUT-PadB27)" class="Default">
+      <node ref="U5" pin="B27" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U5A-DIG_LDO_OUT-PadB35)" class="Default">
+      <node ref="U5" pin="B35" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U5A-DIG_LDO_OUT-PadB36)" class="Default">
+      <node ref="U5" pin="B36" pinfunction="DIG_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U5A-MLDO_IN-PadB5)" class="Default">
+      <node ref="U5" pin="B5" pinfunction="MLDO_IN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U5A-MLDO_OUT-PadA5)" class="Default">
+      <node ref="U5" pin="A5" pinfunction="MLDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U5A-MLDO_OUT-PadA9)" class="Default">
+      <node ref="U5" pin="A9" pinfunction="MLDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U5A-MLDO_OUT-PadB2)" class="Default">
+      <node ref="U5" pin="B2" pinfunction="MLDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U5A-MLDO_OUT-PadB7)" class="Default">
+      <node ref="U5" pin="B7" pinfunction="MLDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U5A-NC-PadA14)" class="Default">
+      <node ref="U5" pin="A14" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U5A-SRAM_LDO_OUT-PadB1)" class="Default">
+      <node ref="U5" pin="B1" pinfunction="SRAM_LDO_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U5B-NC-PadA1)" class="Default">
+      <node ref="U5" pin="A1" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U5B-NC-PadA13)" class="Default">
+      <node ref="U5" pin="A13" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U5B-NC-PadA15)" class="Default">
+      <node ref="U5" pin="A15" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U5B-NC-PadA16)" class="Default">
+      <node ref="U5" pin="A16" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U5B-NC-PadA18)" class="Default">
+      <node ref="U5" pin="A18" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U5B-NC-PadA19)" class="Default">
+      <node ref="U5" pin="A19" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U5B-NC-PadA20)" class="Default">
+      <node ref="U5" pin="A20" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U5B-NC-PadA21)" class="Default">
+      <node ref="U5" pin="A21" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U5B-NC-PadA22)" class="Default">
+      <node ref="U5" pin="A22" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U5B-NC-PadA23)" class="Default">
+      <node ref="U5" pin="A23" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U5B-NC-PadA27)" class="Default">
+      <node ref="U5" pin="A27" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U5B-NC-PadA30)" class="Default">
+      <node ref="U5" pin="A30" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U5B-NC-PadA31)" class="Default">
+      <node ref="U5" pin="A31" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U5B-NC-PadA36)" class="Default">
+      <node ref="U5" pin="A36" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U5B-NC-PadA37)" class="Default">
+      <node ref="U5" pin="A37" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U5B-NC-PadA39)" class="Default">
+      <node ref="U5" pin="A39" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U5B-NC-PadA40)" class="Default">
+      <node ref="U5" pin="A40" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U5B-NC-PadB10)" class="Default">
+      <node ref="U5" pin="B10" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U5B-NC-PadB12)" class="Default">
+      <node ref="U5" pin="B12" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U5B-NC-PadB13)" class="Default">
+      <node ref="U5" pin="B13" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U5B-NC-PadB14)" class="Default">
+      <node ref="U5" pin="B14" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U5B-NC-PadB16)" class="Default">
+      <node ref="U5" pin="B16" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U5B-NC-PadB17)" class="Default">
+      <node ref="U5" pin="B17" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U5B-NC-PadB20)" class="Default">
+      <node ref="U5" pin="B20" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U5B-NC-PadB23)" class="Default">
+      <node ref="U5" pin="B23" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U5B-NC-PadB28)" class="Default">
+      <node ref="U5" pin="B28" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U5B-NC-PadB29)" class="Default">
+      <node ref="U5" pin="B29" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U5B-NC-PadB30)" class="Default">
+      <node ref="U5" pin="B30" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U5B-NC-PadB31)" class="Default">
+      <node ref="U5" pin="B31" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,27 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C16","100nF","C_0805_2012Metric",20.5232,30.4952,90.0000,bottom
+"C17","10uF","C_0805_2012Metric",17.5132,30.4952,90.0000,bottom
+"C18","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",32.1044,16.7990,90.0000,bottom
+"C19","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",33.3744,16.7990,90.0000,bottom
+"C20","22pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",26.9990,15.3004,180.0000,bottom
+"C21","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",15.4166,18.3738,180.0000,bottom
+"C22","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",19.8681,24.9086,180.0000,bottom
+"C23","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",21.0198,14.1390,0.0000,bottom
+"C24","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",23.5090,24.9340,0.0000,bottom
+"C25","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",30.2807,18.7802,-135.0000,bottom
+"C26","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",30.0470,22.0822,135.0000,bottom
+"D3","BZV55C-6,2V","D_MiniMELF",32.4682,27.9402,90.0000,bottom
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,38.5258,0.0000,bottom
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,42.0758,0.0000,bottom
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,45.6258,0.0000,bottom
+"FL1","DEA202450BT-1213C1","DEA202450BT-1213C1",29.9454,15.2750,0.0000,bottom
+"J1","Conn_Coaxial","MCX",39.5974,15.2101,-90.0000,top
+"J2","3.3-5V","Straight_2x03",19.4564,35.7886,90.0000,top
+"L2","0ohm","L_0402_1005Metric_Pad0.77x0.64mm_HandSolder",32.7394,15.2496,0.0000,bottom
+"M1","HOLE","MountingHole_3mm",10.1600,30.4800,0.0000,top
+"M2","HOLE","MountingHole_3mm",40.6400,30.4800,0.0000,top
+"M3","HOLE","MountingHole_3mm",10.1600,10.1600,0.0000,top
+"M4","HOLE","MountingHole_3mm",40.6400,10.1600,0.0000,top
+"R18","0","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",15.4166,19.4660,180.0000,bottom
+"U5","CC2564CRVMR","CC2564CRVMR",21.3856,19.5676,180.0000,bottom
+"Y3","ECS-260-8-36CKM-TR","XTAL_ECS-260-8-36CKM-TR",28.4839,20.5582,135.0000,bottom

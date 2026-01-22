@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J1","Conn_Coaxial","MCX",39.5974,15.2101,-90.0000,top
+"J2","3.3-5V","Straight_2x03",19.4564,35.7886,90.0000,top
+"M1","HOLE","MountingHole_3mm",10.1600,30.4800,0.0000,top
+"M2","HOLE","MountingHole_3mm",40.6400,30.4800,0.0000,top
+"M3","HOLE","MountingHole_3mm",10.1600,10.1600,0.0000,top
+"M4","HOLE","MountingHole_3mm",40.6400,10.1600,0.0000,top
