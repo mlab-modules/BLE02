@@ -8,9 +8,18 @@ github_description: Bluetooth 4.1 controller for UART HCI-based BLE and BR/EDR c
 github_repo: BLE02
 github_url: https://github.com/mlab-modules/BLE02
 homepage: false
-images: []
+images:
+- doc/gen/img/BLE02-top.png
+- doc/gen/img/BLE02-bottom.png
+- doc/gen/BLE02-schematic.svg
+- doc/gen/img/BLE02-bottom.svg
+- doc/gen/img/BLE02-top.svg
+- hw/cam_profi/assembly/BLE02-assembly_page_01.svg
+- hw/cam_profi/assembly/BLE02-assembly_page_02.svg
 issues: 2
 mark: 50
+mod_ibom: hw/cam_profi/BLE02-ibom.html
+mod_scheme: doc/gen/BLE02-schematic.pdf
 tags: []
 title: BLE02
-updated: '2026-01-22T14:02:03.679126+00:00'
+updated: '2026-01-22T14:04:21.970328+00:00'
