@@ -2530,149 +2530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cc2564-board-rescue:INDUCTOR-pspice"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INDUCTOR-pspice"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INDUCTOR-pspice_0_1"
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.27)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.27)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INDUCTOR-pspice_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cc2564-board-rescue:R-Device"
 			(pin_numbers
 				(hide yes)
@@ -3015,17 +2872,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCB trace should have approximatelly 50 ohm impedence\npi network could later be used for impedence matching\nBPF itself is ‘impedence matched’ to 50ohm"
-		(exclude_from_sim no)
-		(at 189.23 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28fa42b9-2452-473f-a9cd-c50b22e23081")
-	)
 	(text "DC blocking\nrequired for CC2564\nhigh-Q, 25V\ne.g. GRM0225C1E220JA02L"
 		(exclude_from_sim no)
 		(at 111.76 49.53 0)
@@ -3082,12 +2928,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "15fa9435-399a-4fa7-b7df-21532d77c6c7")
-	)
-	(junction
-		(at 231.14 40.64)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "19bbed8f-62c5-47e8-97a3-e77c98d47cd0")
 	)
 	(junction
 		(at 143.51 85.09)
@@ -3210,12 +3050,6 @@
 		(uuid "a9f74ff9-cda6-45a3-9ddc-4ab86893974c")
 	)
 	(junction
-		(at 212.09 40.64)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "b411cfd3-1b93-489a-92f9-b283f664d2f6")
-	)
-	(junction
 		(at 163.83 80.01)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3266,16 +3100,6 @@
 	(no_connect
 		(at 69.85 125.73)
 		(uuid "17d96eb0-8cc2-47af-b2df-6b51b7519ee0")
-	)
-	(wire
-		(pts
-			(xy 212.09 40.64) (xy 214.63 40.64)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "001b7f18-1e6b-441c-b0a6-4d3c4557abe6")
 	)
 	(wire
 		(pts
@@ -3376,16 +3200,6 @@
 			(type default)
 		)
 		(uuid "18455ae2-ffea-4c22-ae40-d53f799240c8")
-	)
-	(polyline
-		(pts
-			(xy 238.76 54.61) (xy 208.28 54.61)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "1b49b9c4-ad9c-4100-917e-db2a288f46e3")
 	)
 	(wire
 		(pts
@@ -3559,23 +3373,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 40.64) (xy 212.09 40.64)
+			(xy 199.39 40.64) (xy 247.65 40.64)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(uuid "444ee2d1-aceb-4d55-badf-6d34f2fa1ecb")
-	)
-	(wire
-		(pts
-			(xy 231.14 40.64) (xy 247.65 40.64)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "46a8a80d-8a71-4ccb-9b62-f9093735dc82")
+		(uuid "417b6a5d-1c85-47bb-9594-5ed8c1f7065f")
 	)
 	(wire
 		(pts
@@ -3586,16 +3390,6 @@
 			(type solid)
 		)
 		(uuid "4869014e-a1b5-41f1-98c9-8713096a8afb")
-	)
-	(polyline
-		(pts
-			(xy 208.28 54.61) (xy 208.28 33.02)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "4c97fca7-daf5-4c78-837c-5f4495fef7f9")
 	)
 	(wire
 		(pts
@@ -3646,16 +3440,6 @@
 			(type dash)
 		)
 		(uuid "5ad269c9-cf05-434e-8580-9e157b620aa6")
-	)
-	(wire
-		(pts
-			(xy 227.33 40.64) (xy 231.14 40.64)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5b2851b8-f110-4fd3-9f91-d49f66dbf468")
 	)
 	(wire
 		(pts
@@ -3967,16 +3751,6 @@
 		)
 		(uuid "ac7f2db2-58c7-48a0-b859-bf00e319ed8d")
 	)
-	(polyline
-		(pts
-			(xy 238.76 33.02) (xy 238.76 54.61)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "afbdc096-792b-465b-b2e2-1150b3fe2ecd")
-	)
 	(wire
 		(pts
 			(xy 208.28 92.71) (xy 215.9 92.71)
@@ -4186,16 +3960,6 @@
 			(type solid)
 		)
 		(uuid "e913e41f-aa79-4bac-967a-5090374b9585")
-	)
-	(polyline
-		(pts
-			(xy 208.28 33.02) (xy 238.76 33.02)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "eac0e3fb-ef94-4e4c-9e4f-02d0a9f20438")
 	)
 	(wire
 		(pts
@@ -5717,363 +5481,6 @@
 			(project ""
 				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cc2564-board-rescue:C-Device")
-		(at 212.09 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00006110ad75")
-		(property "Reference" "C18"
-			(at 215.011 43.2816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 215.011 45.593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 213.0552 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "UST_ID" ""
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b1caa72-0d58-4b70-b30a-a1f6d55b6d7f")
-		)
-		(pin "2"
-			(uuid "2ecdcaf6-a5f2-4ca9-8145-99ea1005b846")
-		)
-		(instances
-			(project ""
-				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cc2564-board-rescue:C-Device")
-		(at 231.14 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00006111b2bc")
-		(property "Reference" "C19"
-			(at 234.061 43.2816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 234.061 45.593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 232.1052 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "UST_ID" ""
-			(at 231.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ae479a7-31a6-4356-8ece-b315bfc9f1c6")
-		)
-		(pin "2"
-			(uuid "51f598c8-4d27-466f-b8f4-296522e6b944")
-		)
-		(instances
-			(project ""
-				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cc2564-board-rescue:INDUCTOR-pspice")
-		(at 220.98 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00006111c7d2")
-		(property "Reference" "L2"
-			(at 220.98 35.179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0ohm"
-			(at 220.98 37.4904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 220.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "UST_ID" ""
-			(at 220.98 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad40259e-a8fc-4573-999b-a7cd145a4911")
-		)
-		(pin "2"
-			(uuid "5825a2b2-561b-4432-a0f1-6349d55dbc02")
-		)
-		(instances
-			(project ""
-				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cc2564-board-rescue:GND-power")
-		(at 212.09 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006117035b")
-		(property "Reference" "#PWR024"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.217 52.6542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f44b3b4e-1971-4c1f-ad75-df4681ffd865")
-		)
-		(instances
-			(project ""
-				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cc2564-board-rescue:GND-power")
-		(at 231.14 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061170d2b")
-		(property "Reference" "#PWR025"
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.267 52.6542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db98a24d-a25c-4565-9e45-4b4cff51abf0")
-		)
-		(instances
-			(project ""
-				(path "/6a59411f-65c6-41d8-ab8c-86c4df5e5e8d"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

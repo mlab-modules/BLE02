@@ -2288,7 +2288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x05"
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x04"
 			(at 50.8 75.6725 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:Straight_2x05"
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x04"
 			(at 50.8 122.6625 0)
 			(effects
 				(font
