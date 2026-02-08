@@ -1,15 +1,20 @@
-Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
-1,,C-Device,C25C26,10 pF,C_0603_1608Metric,2,~,
-2,,C-Device,C20,22pF,C_0603_1608Metric,1,~,
-3,Unpolarized capacitor,C,C16,100nF,C_0603_1608Metric,1,~,5c70984712875079b91f8b4c
-4,,C-Device,C21C22C23C24,0.1uF,C_0603_1608Metric,4,~,
-5,Unpolarized capacitor,C,C17,10uF,C_0805_2012Metric,1,~,5c70984812875079b91f8bbe
-6,Zener diode,D_Zener,D3,"BZV55C-6,2V",D_MiniMELF,1,~,604b0326128750769e5b0f93
-7,,DEA202450BT-1213C1,FL1,DEA202450BT-1213C1,DEA202450BT-1213C1,1,,
-8,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J2,3.3-5V,Straight_2x03,1,,
-9,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J1,Conn_Coaxial,MCX,1,~,
-10,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J3J4,JUMP_5X2,Straight_2x04,2,,
-11,,R-Device,R18,0,R_0603_1608Metric,1,~,
-12,,CC2564CRVMR,U2,CC2564CRVMR,RVM0076A,1,https://www.ti.com/lit/gpn/cc2564c,
-13,"Bidirectional  level-shifting voltage translator, TSSOP-14",TXS0104EPW,U1U3,TXS0104EPW,TSSOP-14_4.4x5mm_P0.65mm,2,www.ti.com/lit/ds/symlink/txs0104e.pdf,
-14,,Crystal_GND24_Small-Device,Y3,ECS-260-8-36CKM-TR,XTAL_ECS-260-8-36CKM-TR,1,~,
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id,sim.pins
+1,,C-Device,C25C26,10 pF,C_0603_1608Metric,2,~,,
+2,,C-Device,C20,22pF,C_0603_1608Metric,1,~,,
+3,,C-Device,C1C2C3C4C5C6C7C21C22C23C24,0.1uF,C_0603_1608Metric,11,~,,
+4,Unpolarized capacitor,C,C16,100nF,C_0603_1608Metric,1,~,5c70984712875079b91f8b4c,
+5,Unpolarized capacitor,C,C17,10uF,C_0805_2012Metric,1,~,5c70984812875079b91f8bbe,
+6,"Unpolarized capacitor, small symbol",C_Small,C8,100nF/50V,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,~,,
+7,Zener diode,D_Zener,D3,"BZV55C-6,2V",D_MiniMELF,1,~,604b0326128750769e5b0f93,
+8,Light emitting diode,LED,D1,LED,LED_0805_2012Metric,1,~,,1=K 2=A
+9,,DEA202450BT-1213C1,FL1,DEA202450BT-1213C1,DEA202450BT-1213C1,1,,,
+10,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J2,3.3-5V,Straight_2x03,1,,,
+11,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J1,Conn_Coaxial,MCX,1,~,,
+12,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J3J4,JUMP_5X2,Straight_2x04,2,,,
+13,,R-Device,R4,2k2,R_0603_1608Metric,1,~,,
+14,,R-Device,R1R2R3,10k,R_0603_1608Metric,3,~,,
+15,"Resistor, small symbol",R_Small,R5,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,~,,
+16,,CC2564CRVMR,U2,CC2564CRVMR,RVM0076A,1,https://www.ti.com/lit/gpn/cc2564c,,
+17,"Bidirectional  level-shifting voltage translator, TSSOP-14",TXS0104EPW,U1U3,TXS0104EPW,TSSOP-14_4.4x5mm_P0.65mm,2,www.ti.com/lit/ds/symlink/txs0104e.pdf,,
+18,,ASH7K-32.768KHZ-T,X1,ASH7K-32.768KHZ-T,ASH7K_ABR,1,ASH7K-32.768KHZ-T,,
+19,,Crystal_GND24_Small-Device,Y3,ECS-260-8-36CKM-TR,XTAL_ECS-260-8-36CKM-TR,1,~,,
