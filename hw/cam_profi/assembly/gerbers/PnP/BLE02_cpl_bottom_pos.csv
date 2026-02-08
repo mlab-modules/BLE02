@@ -1,21 +1,23 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C16","100nF","C_0805_2012Metric",20.5232,30.4952,90.0000,bottom
-"C17","10uF","C_0805_2012Metric",17.5132,30.4952,90.0000,bottom
-"C18","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",32.1044,16.7990,90.0000,bottom
-"C19","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",33.3744,16.7990,90.0000,bottom
-"C20","22pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",26.9990,15.3004,180.0000,bottom
-"C21","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",15.4166,18.3738,180.0000,bottom
-"C22","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",19.8681,24.9086,180.0000,bottom
-"C23","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",21.0198,14.1390,0.0000,bottom
-"C24","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",23.5090,24.9340,0.0000,bottom
-"C25","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",30.2807,18.7802,-135.0000,bottom
-"C26","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",30.0470,22.0822,135.0000,bottom
-"D3","BZV55C-6,2V","D_MiniMELF",32.4682,27.9402,90.0000,bottom
+"C16","100nF","C_0805_2012Metric",13.5000,15.5000,0.0000,bottom
+"C17","10uF","C_0805_2012Metric",12.5000,25.0000,90.0000,bottom
+"C18","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",34.9925,22.3994,90.0000,bottom
+"C19","DNP","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",36.2625,22.3994,90.0000,bottom
+"C20","22pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",29.6500,20.8367,180.0000,bottom
+"C21","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",22.3500,13.7000,180.0000,bottom
+"C22","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",16.0675,23.4500,180.0000,bottom
+"C23","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",11.0325,41.8000,0.0000,bottom
+"C24","0.1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",26.1500,16.4500,45.0000,bottom
+"C25","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",28.1361,37.8134,-135.0000,bottom
+"C26","10 pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",27.9024,41.1154,135.0000,bottom
+"D3","BZV55C-6,2V","D_MiniMELF",9.0000,15.5000,180.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,38.5258,0.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,42.0758,0.0000,bottom
 "FID3","Fiducial","Fiducial_1mm_Mask2mm",-2.9018,45.6258,0.0000,bottom
-"FL1","DEA202450BT-1213C1","DEA202450BT-1213C1",29.9454,15.2750,0.0000,bottom
-"L2","0ohm","L_0402_1005Metric_Pad0.77x0.64mm_HandSolder",32.7394,15.2496,0.0000,bottom
-"R18","0","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",15.4166,19.4660,180.0000,bottom
-"U5","CC2564CRVMR","CC2564CRVMR",21.3856,19.5676,180.0000,bottom
-"Y3","ECS-260-8-36CKM-TR","XTAL_ECS-260-8-36CKM-TR",28.4839,20.5582,135.0000,bottom
+"FL1","DEA202450BT-1213C1","DEA202450BT-1213C1",32.5500,20.8500,0.0000,bottom
+"L2","0ohm","L_0402_1005Metric_Pad0.77x0.64mm_HandSolder",35.6275,20.8500,0.0000,bottom
+"R18","0","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",39.2500,38.5000,180.0000,bottom
+"U1","TXS0104EPW","TSSOP-14_4.4x5mm_P0.65mm",18.2500,30.9200,90.0000,bottom
+"U2","CC2564CRVMR","RVM0076A",22.2863,20.7065,-135.0000,bottom
+"U3","TXS0104EPW","TSSOP-14_4.4x5mm_P0.65mm",18.3500,10.5000,-90.0000,bottom
+"Y3","ECS-260-8-36CKM-TR","XTAL_ECS-260-8-36CKM-TR",26.3393,39.5914,135.0000,bottom
