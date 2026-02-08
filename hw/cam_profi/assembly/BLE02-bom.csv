@@ -8,7 +8,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 7,,DEA202450BT-1213C1,FL1,DEA202450BT-1213C1,DEA202450BT-1213C1,1,,
 8,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J2,3.3-5V,Straight_2x03,1,,
 9,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J1,Conn_Coaxial,MCX,1,~,
-10,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J3J4,JUMP_5X2,Straight_2x05,2,,
+10,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J3J4,JUMP_5X2,Straight_2x04,2,,
 11,,R-Device,R18,0,R_0603_1608Metric,1,~,
 12,,CC2564CRVMR,U2,CC2564CRVMR,RVM0076A,1,https://www.ti.com/lit/gpn/cc2564c,
 13,"Bidirectional  level-shifting voltage translator, TSSOP-14",TXS0104EPW,U1U3,TXS0104EPW,TSSOP-14_4.4x5mm_P0.65mm,2,www.ti.com/lit/ds/symlink/txs0104e.pdf,

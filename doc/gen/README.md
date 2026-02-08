@@ -68,7 +68,7 @@ Eurocircuits class: 7E
 Components count: (SMD/THT)
 
 - Top: 0/8 (THT)
-- Bottom: 20/2 (SMD + THT)
+- Bottom: 17/2 (SMD + THT)
 
 Defined tracks:
 
@@ -78,7 +78,7 @@ Defined tracks:
 Used tracks:
 
 - 0.13 mm (5 mils) (9) defined: yes
-- 0.2 mm (8 mils) (70) defined: no
+- 0.2 mm (8 mils) (67) defined: no
 - 0.25 mm (10 mils) (13) defined: yes
 
 Defined vias:
@@ -94,7 +94,7 @@ Used vias:
 Holes (excluding vias):
 
 - 0.2 mm (8 mils) (5)
-- 0.89 mm (35 mils) (26)
+- 0.89 mm (35 mils) (22)
 - 1.5 mm (59 mils) (1)
 - 1.7 mm (67 mils) (4)
 - 3.0 mm (118 mils) (4)
@@ -105,7 +105,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (11)
-- 1.0 mm (39 mils) (26)
+- 1.0 mm (39 mils) (22)
 - 1.6 mm (63 mils) (1)
 - 1.8 mm (71 mils) (4)
 - 3.1 mm (122 mils) (4)
@@ -119,7 +119,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |             140 |      49.99 |      0.25 |
+| Total  |             134 |      51.98 |      0.26 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
