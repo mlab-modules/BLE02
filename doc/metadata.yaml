@@ -12,6 +12,7 @@ images:
 - doc/gen/img/BLE02-top.png
 - doc/gen/img/BLE02-bottom.png
 - doc/gen/BLE02-schematic.svg
+- doc/gen/BLE02-connectors.svg
 - doc/gen/img/BLE02-bottom.svg
 - doc/gen/img/BLE02-top.svg
 - hw/cam_profi/assembly/BLE02-assembly_page_01.svg
@@ -22,4 +23,4 @@ mod_ibom: hw/cam_profi/BLE02-ibom.html
 mod_scheme: doc/gen/BLE02-schematic.pdf
 tags: []
 title: BLE02
-updated: '2026-02-08T13:26:23.688079+00:00'
+updated: '2026-02-08T13:28:21.306941+00:00'
