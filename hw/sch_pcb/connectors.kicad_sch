@@ -637,33 +637,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MLAB_Jumpers:JUMP_3X2"
+		(symbol "MLAB_HEADER:HEADER_2x03_PARALLEL"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -8.89 5.08 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "JUMP_3X2"
-				(at 0 1.27 90)
+			(property "Value" "HEADER_2x03_PARALLEL"
+				(at 0 5.08 0)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -671,14 +669,14 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Description" "MLAB modified doubled pinheader connector"
+			(property "Description" "2x03 2.54 mm pitch header, 2 pins next to each other are connected"
 				(at 0 0 0)
 				(effects
 					(font
@@ -687,7 +685,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "JUMPER PINHEADER"
+			(property "ki_keywords" "2x03, header, connector, pinheader"
 				(at 0 0 0)
 				(effects
 					(font
@@ -696,114 +694,265 @@
 					(hide yes)
 				)
 			)
-			(symbol "JUMP_3X2_1_1"
-				(pin passive inverted
-					(at -10.16 3.81 0)
-					(length 7.62)
-					(name "2"
+			(symbol "HEADER_2x03_PARALLEL_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 2.54) (xy 0.889 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -2.54) (xy 0.889 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEADER_2x03_PARALLEL_1_1"
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 3.81 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
 					(hide yes)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 1.27 0)
-					(length 7.62)
-					(name "4"
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 1.27 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 0 0)
+					(length 3.81)
 					(hide yes)
-					(name "4"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -1.27 0)
-					(length 7.62)
-					(name "6"
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -1.27 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
 					(hide yes)
-					(name "6"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -811,33 +960,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MLAB_Jumpers:JUMP_5X2"
+		(symbol "MLAB_HEADER:HEADER_2x04_PARALLEL"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -8.89 6.35 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "JUMP_5X2"
-				(at -1.27 -1.27 90)
+			(property "Value" "HEADER_2x04_PARALLEL"
+				(at 0 6.35 0)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -845,14 +992,14 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Description" "MLAB modified doubled pinheader connector"
+			(property "Description" "2x04 2.54 mm pitch header, 2 pins next to each other are connected"
 				(at 0 0 0)
 				(effects
 					(font
@@ -861,7 +1008,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "JUMPER PINHEADER"
+			(property "ki_keywords" "2x04, header, connector, pinheader"
 				(at 0 0 0)
 				(effects
 					(font
@@ -870,188 +1017,348 @@
 					(hide yes)
 				)
 			)
-			(symbol "JUMP_5X2_1_1"
-				(pin passive inverted
-					(at -10.16 3.81 0)
-					(length 7.62)
-					(name "2"
+			(symbol "HEADER_2x04_PARALLEL_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 3.81) (xy 0.889 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.27) (xy 0.889 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -1.27) (xy 0.889 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -3.81) (xy 0.889 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEADER_2x04_PARALLEL_1_1"
+				(pin input line
+					(at -6.35 3.81 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 3.81 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 3.81 0)
+					(length 3.81)
 					(hide yes)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 1.27 0)
-					(length 7.62)
-					(name "4"
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 1.27 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 3.81)
 					(hide yes)
-					(name "4"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -1.27 0)
-					(length 7.62)
-					(name "6"
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -1.27 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 3.81)
 					(hide yes)
-					(name "6"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -3.81 0)
-					(length 7.62)
-					(name "7"
+				(pin input line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive inverted
-					(at -10.16 -3.81 0)
-					(length 7.62)
+				(pin input line
+					(at -6.35 -3.81 0)
+					(length 3.81)
 					(hide yes)
-					(name "7"
+					(name "~"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -10.16 -6.35 0)
-					(length 7.62)
-					(hide yes)
-					(name "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -10.16 -6.35 0)
-					(length 7.62)
-					(name "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1955,8 +2262,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_Jumpers:JUMP_5X2")
-		(at 46.99 85.09 180)
+		(lib_id "MLAB_HEADER:HEADER_2x04_PARALLEL")
+		(at 50.8 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1965,7 +2272,7 @@
 		(fields_autoplaced yes)
 		(uuid "06421955-061d-485d-94cc-32e7d7b86233")
 		(property "Reference" "J3"
-			(at 49.53 73.66 0)
+			(at 50.8 73.0439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2280,7 @@
 			)
 		)
 		(property "Value" "JUMP_5X2"
-			(at 48.26 83.82 90)
+			(at 52.07 81.28 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1982,23 +2289,24 @@
 			)
 		)
 		(property "Footprint" "Mlab_Pin_Headers:Straight_2x05"
-			(at 49.53 76.2 0)
+			(at 50.8 75.6725 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 85.09 0)
+			(at 50.8 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Description" "MLAB modified doubled pinheader connector"
-			(at 46.99 85.09 0)
+		(property "Description" "2x04 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,8 +2314,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "c1200d46-a71f-4782-9e05-af0f80187dd5")
+		(property "UST_ID" ""
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "ad50641b-3448-4e1e-b7bb-7bbcccf47dea")
@@ -2032,9 +2346,6 @@
 		)
 		(pin "7"
 			(uuid "2d7ac07b-9e25-43b2-8cf5-6ef16e312857")
-		)
-		(pin "10"
-			(uuid "62e6eed1-d2d9-4d8b-bb3b-b8d7637caa7e")
 		)
 		(instances
 			(project "BLE02"
@@ -2189,8 +2500,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_Jumpers:JUMP_5X2")
-		(at 46.99 132.08 180)
+		(lib_id "MLAB_HEADER:HEADER_2x04_PARALLEL")
+		(at 50.8 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2199,7 +2510,7 @@
 		(fields_autoplaced yes)
 		(uuid "29d358f6-5595-451d-85a1-7b9323749f53")
 		(property "Reference" "J4"
-			(at 49.53 120.65 0)
+			(at 50.8 120.0339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2518,7 @@
 			)
 		)
 		(property "Value" "JUMP_5X2"
-			(at 48.26 130.81 90)
+			(at 52.07 128.27 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2216,23 +2527,24 @@
 			)
 		)
 		(property "Footprint" "Mlab_Pin_Headers:Straight_2x05"
-			(at 49.53 123.19 0)
+			(at 50.8 122.6625 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 132.08 0)
+			(at 50.8 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Description" "MLAB modified doubled pinheader connector"
-			(at 46.99 132.08 0)
+		(property "Description" "2x04 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,8 +2552,14 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "893370a5-9988-40d1-a8e3-7c796779f3e6")
+		(property "UST_ID" ""
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
 			(uuid "3c020047-ffe6-42fa-97d7-8de02e7e0c23")
@@ -2266,9 +2584,6 @@
 		)
 		(pin "7"
 			(uuid "a03aefb3-23c8-48da-abdf-7b09ddb4b8aa")
-		)
-		(pin "10"
-			(uuid "e6a8824a-17a4-4a08-a702-2307d696d110")
 		)
 		(instances
 			(project ""
@@ -2674,8 +2989,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_Jumpers:JUMP_3X2")
-		(at 45.72 39.37 0)
+		(lib_id "MLAB_HEADER:HEADER_2x03_PARALLEL")
+		(at 49.53 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2684,7 +2999,7 @@
 		(dnp no)
 		(uuid "7247ac39-376b-4ee9-85c1-4c6550499f8e")
 		(property "Reference" "J2"
-			(at 47.498 42.418 0)
+			(at 51.308 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3007,7 @@
 			)
 		)
 		(property "Value" "3.3-5V"
-			(at 49.022 32.766 0)
+			(at 52.832 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +3015,7 @@
 			)
 		)
 		(property "Footprint" "Mlab_Pin_Headers:Straight_2x03"
-			(at 45.72 39.37 0)
+			(at 49.53 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2709,15 +3024,24 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 39.37 0)
+			(at 49.53 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Description" "MLAB modified doubled pinheader connector"
-			(at 45.72 39.37 0)
+		(property "Description" "2x03 2.54 mm pitch header, 2 pins next to each other are connected"
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
