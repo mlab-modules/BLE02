@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BLE02.kicad_sch</source>
-    <date>2026-02-08T21:46:26+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2026-02-10T21:12:21+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>BLE02A</title>
