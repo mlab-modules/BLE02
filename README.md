@@ -1,36 +1,54 @@
-# MODUL01 - Template to create a new MLAB module
+# BLE02 - Dual-Mode Bluetooth HCI Controller
 
-MLAB's module template repository. Please [use the "Use this template" button](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) to create a new MLAB module from this repository.
+BLE02 is a dual-mode Bluetooth Low Energy controller module based on the CC2564C HCI compatible chipset.  
+The module provides UART (HCI) and PCM/I²S digital audio interface and is designed as a compact MLAB building block for integration with external MCU/MPU systems.
 
-The new module repository name must be identical to the proposed new module name. Please look in [MLAB design rules](https://wiki.mlab.cz/doku.php?id=en:rules#identification_of_modules) for an acceptable naming convention.
-After creating the new repository, [rename](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch) the default git branch to be named corresponding to the revision of the module. It is generally adding the "A" suffix to the module name. Therefore, a new repository named MODULENAME01 should have the branch name MODULENAME01A. 
+![BLE02 top view](doc/gen/img/BLE02-top.png)
 
-Then [clone the new MLAB's module repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your workstation. After that perform the following steps in the cloned repository. 
+![BLE02 bottom view](doc/gen/img/BLE02-bottom.png)
 
-## 1. Initialize the assets submodule, and update it to the latest version
-```bash
-git submodule update --init --remote
-```
+The RF section, clocks and power conditioning are implemented on-board. The host processor should handle the Bluetooth stack via HCI transport.
 
-## 2. Start the design work 
+## Key Features
 
-At that point, you should start to design the new MLAB module project by using the [design tools](https://wiki.mlab.cz/doku.php?id=en:tools).
+- Dual-mode Bluetooth controller (BR/EDR + LE, Bluetooth 5.1 compliant)
+- HCI transport over UART (up to 4 Mbit/s)
+- PCM / I²S digital audio interface
+- Class 1 transmitter capability (up to +12 dBm)
+- Integrated LDO regulator from 3.3V power source
+- 26 MHz main crystal oscillator
+- 32.768 kHz low-power clock oscillator
+- 1.8 V I/O domain (level shifted to 3.3 V on module connectors)
+- Single-ended 50 Ω RF interface on MCX connector
 
-## 3. Copy the fresh automation workflows
-    
-The following command copies up-to-date KiCAD automation workflow to the new MLAB module repository.
-```bash
-cd doc/assets/workflows/
-./copy_workflow_to_repo.sh
-```
+The module uses the chip in HCI mode. All higher Bluetooth layers must run on the host MCU.
 
+## Electrical Parameters
 
-## 4. Replace this readme
+### Supply
 
-This readme should be replaced by a description of your new module project! :)
-Please look to the README.md in the root of other modules to get inspiration. 
+- **VCC (module input):** 3.3 V nominal
+- On-board regulation:
+  - CC2564C powered directly from power input
+  - I/O domain: 1.8 V (generated internally, exposed as VDD_1V8)
+- Typical consumption:
+  - TX (GFSK, max power): ~100 mA
+  - LE advertising: 200 µA average
+  - Shutdown: less than 10 µA
 
-Thanks for contributing! 
+## UART Interface (HCI)
 
+- Transport: H4 (UART)
+- Baud rate: 38.4 kbit/s to 4 Mbit/s
+- Hardware flow control required (RTS/CTS)
 
-    
+The controller signals boot completion by asserting RTS low after reset.
+
+## Audio Interface (PCM / I²S)
+
+- PCM master or slave mode
+- Up to 4.096 MHz bit clock
+- Suitable for HFP, A2DP and other audio profiles
+
+Note: Assisted modes (WBS, A2DP assist) cannot be used simultaneously with LE mode.
+
