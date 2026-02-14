@@ -3167,7 +3167,7 @@
 		(dnp no)
 		(uuid "2c3e589b-4402-4da3-b3c8-a4f050aefd24")
 		(property "Reference" "C16"
-			(at 115.57 47.2186 0)
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 115.57 49.53 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Mlab_D:LED_1206_mill"
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -3357,6 +3357,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -3398,7 +3407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZV55C-6,2V"
+		(property "Value" "BZX585-B5V6.115"
 			(at 134.62 49.5299 90)
 			(effects
 				(font
@@ -3407,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 132.08 48.26 0)
 			(effects
 				(font
@@ -3416,7 +3425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/7f59fc987b8fce7e4ab18399d6e66bd1/BZX585-DTE.pdf"
 			(at 132.08 48.26 0)
 			(effects
 				(font
@@ -3434,7 +3443,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "604b0326128750769e5b0f93"
+		(property "UST_ID" "60879d38128750769ee58e48"
 			(at 132.08 48.26 0)
 			(effects
 				(font
@@ -3706,14 +3715,14 @@
 		(dnp no)
 		(uuid "7247ac39-376b-4ee9-85c1-4c6550499f8e")
 		(property "Reference" "J2"
-			(at 90.678 46.228 0)
+			(at 83.82 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.3-5V"
+		(property "Value" "3.3V"
 			(at 92.202 36.576 0)
 			(effects
 				(font
