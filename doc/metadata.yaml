@@ -22,6 +22,11 @@ mark: 50
 mod_ibom: hw/cam_profi/BLE02-ibom.html
 mod_scheme: doc/gen/BLE02-schematic.pdf
 status: 2
-tags: []
+tags:
+- blue
+- bluetooth-low-energy
+- hci
+- i2s
+- mlab-module
 title: BLE02
-updated: '2026-02-14T23:01:13.487610+00:00'
+updated: '2026-02-15T01:42:52.017981+00:00'
