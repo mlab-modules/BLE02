@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 156.591 93.853 0)
 			(effects
 				(font
@@ -5825,6 +5825,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5860,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 165.481 93.853 0)
 			(effects
 				(font
@@ -5893,6 +5902,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5928,7 +5946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 175.641 93.853 0)
 			(effects
 				(font
@@ -5961,6 +5979,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5996,7 +6023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 185.801 93.853 0)
 			(effects
 				(font
@@ -6031,7 +6058,7 @@
 				)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -6301,7 +6328,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "64c9715d76c82a1d3b579549"
+		(property "UST_ID" "6998b8c5d42e6e3c4d330e98"
 			(at 35.56 154.94 0)
 			(effects
 				(font
@@ -6384,6 +6411,15 @@
 				)
 			)
 		)
+		(property "UST_ID" "5c70984812875079b91f8be2"
+			(at 26.67 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4abf989-a089-47e8-8060-d43109460a9c")
 		)
@@ -6450,6 +6486,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8be2"
+			(at 45.72 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6582,6 +6627,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5e3ff7af1287502a33bad770"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6860,7 +6914,7 @@
 		(at 54.61 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1f71f87e-474c-4a58-89c9-4ad86963a098")
@@ -7111,7 +7165,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "6998b530d42e6e3c4d330dd0"
 			(at 182.88 54.61 0)
 			(effects
 				(font
@@ -7159,7 +7213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 187.071 149.733 0)
 			(effects
 				(font
@@ -7192,6 +7246,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 184.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7263,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "6998b786d42e6e3c4d330e5b"
 			(at 109.22 50.8 0)
 			(effects
 				(font
@@ -7311,7 +7374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 159.131 170.053 0)
 			(effects
 				(font
@@ -7344,6 +7407,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7410,6 +7482,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984512875079b91f8962"
+			(at 60.96 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7582,7 +7663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 170.561 170.053 0)
 			(effects
 				(font
@@ -7615,6 +7696,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7650,7 +7740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/50V"
+		(property "Value" "100nF"
 			(at 96.266 57.912 90)
 			(effects
 				(font
@@ -7678,6 +7768,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
 			(at 99.06 52.07 0)
 			(effects
 				(font
@@ -7756,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "6998b45dd42e6e3c4d330db1"
 			(at 238.76 115.57 0)
 			(effects
 				(font
@@ -8060,7 +8159,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "6998b45dd42e6e3c4d330db1"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -8327,7 +8426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 175.641 149.733 0)
 			(effects
 				(font
@@ -8360,6 +8459,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 172.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8831,7 +8939,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5fa10cc512875025b39779f6"
 			(at 245.11 54.61 0)
 			(effects
 				(font
@@ -8873,7 +8981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 164.211 149.733 0)
 			(effects
 				(font
@@ -8906,6 +9014,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9005,7 +9122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 147.701 170.053 0)
 			(effects
 				(font
@@ -9038,6 +9155,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9137,7 +9263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 152.781 149.733 0)
 			(effects
 				(font
@@ -9170,6 +9296,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" "5c70984812875079b91f8bf2"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
