@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BLE02.kicad_sch</source>
-    <date>2026-02-15T21:51:25+0000</date>
+    <date>2026-02-20T19:47:18+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -43,15 +43,17 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -60,15 +62,17 @@
       <tstamps>e367c660-ccf0-41f1-9283-13404cf948b6</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -77,15 +81,17 @@
       <tstamps>653d139c-ebe0-42d6-8643-533121c73d00</tstamps>
     </comp>
     <comp ref="C3">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -94,15 +100,17 @@
       <tstamps>7d02e29c-b8aa-44d6-8b65-ecc08f92b131</tstamps>
     </comp>
     <comp ref="C4">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -111,15 +119,17 @@
       <tstamps>f8777d22-c5a9-4bc9-9758-1679de0b6669</tstamps>
     </comp>
     <comp ref="C5">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -128,15 +138,17 @@
       <tstamps>ceda6122-c8f9-4a28-9fe2-15bb1663c8cf</tstamps>
     </comp>
     <comp ref="C6">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -145,15 +157,17 @@
       <tstamps>8d15e1aa-d08b-4407-9586-d7e9e282bd9e</tstamps>
     </comp>
     <comp ref="C7">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -162,16 +176,18 @@
       <tstamps>44a6dfbb-b3be-47a9-bdc2-e82da2729bf9</tstamps>
     </comp>
     <comp ref="C8">
-      <value>100nF/50V</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -184,11 +200,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5e3ff7af1287502a33bad770</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5e3ff7af1287502a33bad770"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -197,15 +215,17 @@
       <tstamps>00000000-0000-0000-0000-000061194b2e</tstamps>
     </comp>
     <comp ref="C21">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -214,15 +234,17 @@
       <tstamps>00000000-0000-0000-0000-00005fde69a7</tstamps>
     </comp>
     <comp ref="C22">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -231,15 +253,17 @@
       <tstamps>00000000-0000-0000-0000-00005fde749f</tstamps>
     </comp>
     <comp ref="C23">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -248,17 +272,17 @@
       <tstamps>00000000-0000-0000-0000-00005fde7c1a</tstamps>
     </comp>
     <comp ref="C24">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -271,11 +295,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8be2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8be2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -288,11 +314,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984812875079b91f8be2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="UST_ID" value="5c70984812875079b91f8be2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -366,13 +394,13 @@
       <datasheet>~</datasheet>
       <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5fa10cc512875025b39779f6</field>
         <field name="Footprint">Mlab_CON:MCX</field>
         <field name="Datasheet">~</field>
         <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
       </fields>
       <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5fa10cc512875025b39779f6"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
@@ -457,11 +485,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -481,6 +511,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/" tstamps="/"/>
@@ -491,13 +522,13 @@
       <footprint>Mlab_IO:RVM0076A</footprint>
       <datasheet>https://www.ti.com/lit/gpn/cc2564c</datasheet>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">6998b45dd42e6e3c4d330db1</field>
         <field name="Footprint">Mlab_IO:RVM0076A</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/cc2564c</field>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_Lib" part="CC2564CRVMR" description=""/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="6998b45dd42e6e3c4d330db1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="CC2564CRVMR"/>
@@ -510,13 +541,13 @@
       <footprint>MLAB_SAW:Murata_C187</footprint>
       <datasheet>https://pim.murata.com/asset/pim4/bandPassFilterBPF/LFB212G45CG1C187_PDF_BANDPASSFILTERBPF?lastModifiedDatetime=20250707193107</datasheet>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">6998b530d42e6e3c4d330dd0</field>
         <field name="Footprint">MLAB_SAW:Murata_C187</field>
         <field name="Datasheet">https://pim.murata.com/asset/pim4/bandPassFilterBPF/LFB212G45CG1C187_PDF_BANDPASSFILTERBPF?lastModifiedDatetime=20250707193107</field>
         <field name="Description"/>
       </fields>
       <libsource lib="MLAB_Lib" part="LFB212G45CG1C187" description=""/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="6998b530d42e6e3c4d330dd0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="LFB212G45CG1C187"/>
@@ -530,13 +561,13 @@
       <datasheet>https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-3030CM</datasheet>
       <description>32.768kHz Crystal Oscillator (SPXO)</description>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">6998b786d42e6e3c4d330e5b</field>
         <field name="Footprint">Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm</field>
         <field name="Datasheet">https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-3030CM</field>
         <field name="Description">32.768kHz Crystal Oscillator (SPXO)</field>
       </fields>
       <libsource lib="Oscillator" part="SG-3030CM" description="32.768kHz Crystal Oscillator (SPXO)"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="6998b786d42e6e3c4d330e5b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="Crystal Clock Oscillator"/>
@@ -550,13 +581,13 @@
       <datasheet>https://eu.mouser.com/datasheet/3/294/1/ECX_2236.pdf</datasheet>
       <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
       <fields>
-        <field name="UST_ID">64c9715d76c82a1d3b579549</field>
+        <field name="UST_ID">6998b8c5d42e6e3c4d330e98</field>
         <field name="Footprint">Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</field>
         <field name="Datasheet">https://eu.mouser.com/datasheet/3/294/1/ECX_2236.pdf</field>
         <field name="Description">Four pin crystal, GND on pins 2 and 4, small symbol</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
-      <property name="UST_ID" value="64c9715d76c82a1d3b579549"/>
+      <property name="UST_ID" value="6998b8c5d42e6e3c4d330e98"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BLE02.kicad_sch"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
@@ -570,13 +601,13 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -611,14 +642,14 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="UST_ID"/>
+        <field name="UST_ID">64ab2ec176c82a1d3b57875b</field>
         <field name="Footprint">Mlab_D:LED_1206_mill</field>
         <field name="Datasheet">~</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="64ab2ec176c82a1d3b57875b"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -705,11 +736,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -721,11 +754,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -737,11 +772,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="UST_ID">5c70984512875079b91f895e</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description"/>
       </fields>
       <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f895e"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_fp_filters" value="R_*"/>
@@ -754,11 +791,13 @@
       <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
       <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
       <fields>
+        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
         <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
         <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
+      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="4-bit"/>
@@ -772,11 +811,13 @@
       <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
       <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
       <fields>
+        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
         <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
         <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
       </fields>
       <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
+      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
       <property name="Sheetname" value="connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="4-bit"/>
