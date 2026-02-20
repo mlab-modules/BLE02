@@ -9,14 +9,14 @@ github_url: https://github.com/mlab-modules/BLE02
 homepage: false
 image_title: doc/gen/img/BLE02-top.png
 images:
-- doc/gen/img/BLE02-bottom.png
 - doc/gen/img/BLE02-top.png
+- doc/gen/img/BLE02-bottom.png
 - doc/gen/BLE02-schematic.svg
 - doc/gen/BLE02-connectors.svg
-- doc/gen/img/BLE02-top.svg
 - doc/gen/img/BLE02-bottom.svg
-- hw/cam_profi/assembly/BLE02-assembly_page_02.svg
+- doc/gen/img/BLE02-top.svg
 - hw/cam_profi/assembly/BLE02-assembly_page_01.svg
+- hw/cam_profi/assembly/BLE02-assembly_page_02.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/BLE02-ibom.html
@@ -29,4 +29,4 @@ tags:
 - i2s
 - mlab-module
 title: BLE02
-updated: '2026-02-15T21:52:02.454930+00:00'
+updated: '2026-02-20T19:45:51.428062+00:00'
