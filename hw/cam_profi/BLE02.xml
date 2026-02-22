@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BLE02.kicad_sch</source>
-    <date>2026-02-20T19:47:18+0000</date>
+    <date>2026-02-22T23:26:28+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,24 +12,6 @@
         <date/>
         <source>BLE02.kicad_sch</source>
         <comment number="1" value="Bluetooth controller IC with UART HCI\nand I2S support"/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="2" name="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>connectors.kicad_sch</source>
-        <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -195,6 +177,46 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8047a10a-c5a7-44bf-a8fb-ced9fb11fd5a</tstamps>
     </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c3e589b-4402-4da3-b3c8-a4f050aefd24</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2518dd6e-7960-481b-b61b-6344d4d29f3d</tstamps>
+    </comp>
     <comp ref="C20">
       <value>22pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -328,6 +350,48 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006037626d</tstamps>
     </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Mlab_D:LED_1206_mill</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="UST_ID">64ab2ec176c82a1d3b57875b</field>
+        <field name="Footprint">Mlab_D:LED_1206_mill</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="UST_ID" value="64ab2ec176c82a1d3b57875b"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c067f77-7872-4e53-9b12-b33bd0419530</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BZX585-B5V6.115</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.tme.eu/Document/7f59fc987b8fce7e4ab18399d6e66bd1/BZX585-DTE.pdf</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="UST_ID">60879d38128750769ee58e48</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://www.tme.eu/Document/7f59fc987b8fce7e4ab18399d6e66bd1/BZX585-DTE.pdf</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="UST_ID" value="60879d38128750769ee58e48"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42f4dfb9-8562-4784-980c-bf4793c51ace</tstamps>
+    </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
@@ -407,6 +471,60 @@
       <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ce2c1498-294d-4ce9-a320-aedfc0dec01a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3.3V</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7247ac39-376b-4ee9-85c1-4c6550499f8e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JUMP_5X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <description>2x04 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06421955-061d-485d-94cc-32e7d7b86233</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JUMP_5X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <description>2x04 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="UST_ID"/>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29d358f6-5595-451d-85a1-7b9323749f53</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE</value>
@@ -498,6 +616,60 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>66111c21-a8b3-41b6-b4d3-93b10b2a8531</tstamps>
     </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8cce8aa-6c1a-4bbd-bae0-c4ca559f845f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fb82f8d-cb23-49d0-b05a-b3195e4e58cf</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f895e</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f895e"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17f2bede-e9ca-4d5d-b629-cd7e5e4269c5</tstamps>
+    </comp>
     <comp ref="TP1">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
@@ -517,6 +689,26 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1f71f87e-474c-4a58-89c9-4ad86963a098</tstamps>
     </comp>
+    <comp ref="U1">
+      <value>TXS0104EPW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
+      <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
+      <fields>
+        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
+        <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
+      </fields>
+      <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
+      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="4-bit"/>
+      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59c61908-2325-412a-b153-e734c3e3118f</tstamps>
+    </comp>
     <comp ref="U2">
       <value>CC2564CRVMR</value>
       <footprint>Mlab_IO:RVM0076A</footprint>
@@ -535,6 +727,26 @@
       <property name="ki_fp_filters" value="RVM0076A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8a125ad9-1019-4d76-8dd0-07c52fb56c05 89284168-ed3d-47d5-9125-f4dafd634f2f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TXS0104EPW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
+      <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
+      <fields>
+        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
+        <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
+      </fields>
+      <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
+      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE02.kicad_sch"/>
+      <property name="ki_keywords" value="4-bit"/>
+      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5680e57-01fa-4a7c-8d7d-1392f031ac05</tstamps>
     </comp>
     <comp ref="U4">
       <value>LFB212G45CG1C187</value>
@@ -594,236 +806,6 @@
       <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006036c44d</tstamps>
-    </comp>
-    <comp ref="C16">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>2c3e589b-4402-4da3-b3c8-a4f050aefd24</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
-        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>2518dd6e-7960-481b-b61b-6344d4d29f3d</tstamps>
-    </comp>
-    <comp ref="D1">
-      <value>LED</value>
-      <footprint>Mlab_D:LED_1206_mill</footprint>
-      <datasheet>~</datasheet>
-      <description>Light emitting diode</description>
-      <fields>
-        <field name="Sim.Pins">1=K 2=A</field>
-        <field name="UST_ID">64ab2ec176c82a1d3b57875b</field>
-        <field name="Footprint">Mlab_D:LED_1206_mill</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Light emitting diode</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="UST_ID" value="64ab2ec176c82a1d3b57875b"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="LED diode"/>
-      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>3c067f77-7872-4e53-9b12-b33bd0419530</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>BZX585-B5V6.115</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
-      <datasheet>https://www.tme.eu/Document/7f59fc987b8fce7e4ab18399d6e66bd1/BZX585-DTE.pdf</datasheet>
-      <description>Zener diode</description>
-      <fields>
-        <field name="UST_ID">60879d38128750769ee58e48</field>
-        <field name="Footprint">Diode_SMD:D_SOD-523</field>
-        <field name="Datasheet">https://www.tme.eu/Document/7f59fc987b8fce7e4ab18399d6e66bd1/BZX585-DTE.pdf</field>
-        <field name="Description">Zener diode</field>
-      </fields>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <property name="UST_ID" value="60879d38128750769ee58e48"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="diode"/>
-      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>42f4dfb9-8562-4784-980c-bf4793c51ace</tstamps>
-    </comp>
-    <comp ref="J2">
-      <value>3.3V</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
-      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
-      <fields>
-        <field name="UST_ID"/>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
-        <field name="Datasheet"/>
-        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
-      </fields>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="UST_ID" value=""/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>7247ac39-376b-4ee9-85c1-4c6550499f8e</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>JUMP_5X2</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
-      <description>2x04 2.54 mm pitch header, 2 pins next to each other are connected</description>
-      <fields>
-        <field name="UST_ID"/>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
-        <field name="Datasheet"/>
-        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
-      </fields>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="UST_ID" value=""/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>06421955-061d-485d-94cc-32e7d7b86233</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>JUMP_5X2</value>
-      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
-      <description>2x04 2.54 mm pitch header, 2 pins next to each other are connected</description>
-      <fields>
-        <field name="UST_ID"/>
-        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
-        <field name="Datasheet"/>
-        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
-      </fields>
-      <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
-      <property name="UST_ID" value=""/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>29d358f6-5595-451d-85a1-7b9323749f53</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8962</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f8962"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>f8cce8aa-6c1a-4bbd-bae0-c4ca559f845f</tstamps>
-    </comp>
-    <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f8962</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f8962"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>2fb82f8d-cb23-49d0-b05a-b3195e4e58cf</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="UST_ID">5c70984512875079b91f895e</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="cc2564-board-rescue" part="R-Device" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f895e"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>17f2bede-e9ca-4d5d-b629-cd7e5e4269c5</tstamps>
-    </comp>
-    <comp ref="U1">
-      <value>TXS0104EPW</value>
-      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
-      <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
-      <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
-      <fields>
-        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
-        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
-        <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
-        <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
-      </fields>
-      <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
-      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="4-bit"/>
-      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>59c61908-2325-412a-b153-e734c3e3118f</tstamps>
-    </comp>
-    <comp ref="U3">
-      <value>TXS0104EPW</value>
-      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
-      <datasheet>www.ti.com/lit/ds/symlink/txs0104e.pdf</datasheet>
-      <description>Bidirectional  level-shifting voltage translator, TSSOP-14</description>
-      <fields>
-        <field name="UST_ID">6998b3d2d42e6e3c4d330d92</field>
-        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
-        <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0104e.pdf</field>
-        <field name="Description">Bidirectional  level-shifting voltage translator, TSSOP-14</field>
-      </fields>
-      <libsource lib="Logic_LevelTranslator" part="TXS0104EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-14"/>
-      <property name="UST_ID" value="6998b3d2d42e6e3c4d330d92"/>
-      <property name="Sheetname" value="connectors"/>
-      <property name="Sheetfile" value="connectors.kicad_sch"/>
-      <property name="ki_keywords" value="4-bit"/>
-      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
-      <sheetpath names="/connectors/" tstamps="/8811028e-5a52-4acb-90fc-87cbbfdf0f7f/"/>
-      <tstamps>d5680e57-01fa-4a7c-8d7d-1392f031ac05</tstamps>
     </comp>
   </components>
   <libparts>
